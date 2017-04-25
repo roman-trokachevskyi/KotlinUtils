@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_main_item_offices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_choose_office_item_offices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:button="@android:color/transparent"
+            android:clickable="false"
+            android:focusable="false" />
+
+        <TextView
+            android:id="@+id/tv_text_office_name_item_offices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="left|center"
+            android:maxLines="4"
+            android:minHeight="15dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textSize="14sp"
+            tools:text="Halloween" />
+    </LinearLayout>
+
+</RelativeLayout>
